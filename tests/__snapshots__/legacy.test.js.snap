@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`proc(month) toàn bộ chuỗi báo cáo khớp snapshot (pin định dạng nguyên trạng) 1`] = `
+"==========================================
+ MONTHLY ORDER REPORT  2026-01
+==========================================
+
+Order #1001  [DONE]  2026-01-05
+  Customer: Hanoi Garment Co (Hanoi, tier A)
+    T-Shirt Basic  x200  @ $4.50  = $900.00
+    Cargo Pants  x50  @ $11.50  = $575.00
+  Subtotal: $1,475.00   Total(incl. disc+tax): $1,433.70
+
+Order #1002  [DONE]  2026-01-12
+  Customer: Saigon Textile (HCMC, tier B)
+    Polo Shirt  x120  @ $7.25  = $870.00
+    Denim Jeans  x80  @ $14.00  = $1,120.00
+    T-Shirt Basic  x300  @ $4.50  = $1,350.00
+  Subtotal: $3,340.00   Total(incl. disc+tax): $3,318.62
+
+Order #1003  [CANCEL]  2026-01-20
+  Customer: Hanoi Garment Co (Hanoi, tier A)
+    Hoodie Fleece  x40  @ $12.00  = $480.00
+  ** CANCELLED — excluded from totals **
+
+------------------------------------------
+ Orders counted: 2
+ Grand total:    $4,752.32
+==========================================
+"
+`;
